@@ -1,0 +1,39 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+        width:400px
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h2d><img src="/icon48.png" >Timetable Exporter</h2>
+    <ol>
+      <li>Navigate to the <a href="https://timetable.dur.ac.uk/module.htm">Teaching Timetable</a></li>
+      <li>Choose your modules as usual</li>
+      <li>Don't change any other settings</li>
+      <li>Click 'View Timetable'</li>
+      <li>'Download Timetable' link will appear</li>
+      <li>Import the downloaded file into your calendar program (<i>Google Calendar, Apple Calendar, Outlook, Yahoo, Mozilla Thunderbird...etc</i>)</li>
+    </ol>
+    <b>It is advised you make a separate calendar for your timetable as there
+      will be a lot of events</b>
+  </body>
+</html>
