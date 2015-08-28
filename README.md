@@ -2,7 +2,11 @@
 
 Export the Durham Module Timetable in iCalendar format used by:
 
-Google Calendar
-Apply Calendar
-Microsoft Outlook
-And more...
+<ul>
+<li>Google Calendar</li>
+<li>Apple Calendar</li>
+<li>Microsoft Outlook</li>
+<li>And more...</li>
+</ul>
+
+Currently as a google chrome extension and aiming to support safari.
