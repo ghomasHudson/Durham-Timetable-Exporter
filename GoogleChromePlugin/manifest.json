@@ -1,9 +1,10 @@
 {
   "manifest_version": 2,
 
-  "name": "Durham Univeristy Timetable Exporter",
+  "name": "Durham Uni Timetable Exporter",
+  "short_name": "DU Timetable",
   "description": "Converts the Durham uni timetable into a calender format",
-  "version": "0.1",
+  "version": "0.2.1",
 
   "icons": { "16": "icon16.png",
            "48": "icon48.png",
