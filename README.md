@@ -1,6 +1,6 @@
 # Durham-Timetable-Exporter
 
-Export the Durham Module Timetable in iCalendar format used by:
+Export the Durham Module Timetable in [iCalendar](https://icalendar.org) format used by:
 
 <ul>
 <li>Google Calendar</li>
@@ -9,4 +9,4 @@ Export the Durham Module Timetable in iCalendar format used by:
 <li>And more...</li>
 </ul>
 
-Currently as a google chrome extension and aiming to support safari.
+Currently packaged as a google chrome extension but the main file is durTimetable.js which manipulates HTML of the timetable page.
